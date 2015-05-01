@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Sprouts Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script data-main="js/main" src="js/require.js"></script>
+</head>
+
+<body>
+
+    <div id="app">
+
+        <canvas id="canvas" resize></canvas>
+
+        <div id="stats">
+            <p>player: <span id="player_id">1</span></p>
+            <p>moves: <span id="moves_count">0</span></p>
+        </div>
+
+        <div id="menu_container">
+            <div id="inputs">
+                <span class="input_caption">Seeds Number</span><input id="seeds_number" type="text" value="3" class="input">
+                <span class="input_caption">Seeds Diameter</span><input id="seed_diameter" type="text" value="40" class="input">
+            </div>
+            <button id="new_game">New game</button>
+        </div>
+
+    </div>
+
+</body>
+</html>
+
