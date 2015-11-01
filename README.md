@@ -5,7 +5,7 @@ Sprouts is simple topological game, where player should connect points with line
 Created as test task in two days (JavaScript + PaperJS). Tested mostly in Chrome.
 
 Play here https://goo.gl/RW4rhk
-
+<hr>
 <p align="center">
   <img src="https://sergej-s.github.io/cdn/sprouts01.png" width="640">
   <img src="https://sergej-s.github.io/cdn/sprouts02.png" width="640">
