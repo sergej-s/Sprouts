@@ -55,7 +55,7 @@ require( ["lodash", "paper"],
             title;
         paper.project.importSVG('./assets/sprouts-title.svg', function(item) {
             title_shape = item;
-            title_shape.scale(16);
+            title_shape.scale(2);
             loadingText.remove();
             loadingText = null;
             title = createTitle(title_shape);
