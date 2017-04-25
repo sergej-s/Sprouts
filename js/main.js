@@ -342,8 +342,9 @@ require( ["lodash", "paper"],
                         } else if (current_sprout.segments.length) {
                             //draw sprout
                             current_sprout.add(event.point);
-                            //if current sprout hit another sprout then remove current sprout
-                            if (sproutsIntersectionTest(sprouts, current_sprout)) {
+                            //if current sprout hit another sprout or itself then remove current sprout
+                            if (sproutsIntersectionTest(sprouts, current_sprout) ||
+                                current_sprout.getIntersections().length > 0) {
                                 resetMove();
                             } else {
                                 //if sprout hit seed then check possibility of connection
